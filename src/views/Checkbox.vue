@@ -69,9 +69,8 @@ export default {
       mostrarAutor: false
     }
   },
-  watch: {
-    tiposDocumentosSeleccionados: {
-      handler(valoresNuevo){
+  methods: {
+    validacionCombobox(valoresNuevo){
 
         if(valoresNuevo.length === 1 && valoresNuevo.includes("Operativo")){
 
@@ -115,6 +114,16 @@ export default {
 
         }
 
+
+    }
+
+  },
+  watch: {
+    tiposDocumentosSeleccionados: {
+      handler(valoresNuevo){
+
+        this.validacionCombobox(valoresNuevo);
+      
       }
     }
   }
