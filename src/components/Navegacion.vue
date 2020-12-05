@@ -31,6 +31,12 @@
           <v-btn class="mr-2"  color="secondary" depressed :to="{ name: 'Systembars' }" small>System bars</v-btn>
 
           <v-btn class="mr-2"  color="secondary" depressed :to="{ name: 'Bottomnavigation' }" small>Bottom navigation</v-btn>
+
+          <v-btn class="mr-2"  color="secondary" depressed :to="{ name: 'Datepicker' }" small>Datepicker</v-btn>
+          <v-btn class="mr-2"  color="secondary" depressed :to="{ name: 'Input' }" small>Input</v-btn>
+
+          <v-btn class="mr-2"  color="secondary" depressed :to="{ name: 'Datepicker' }" small>Input</v-btn>
+          <v-btn class="mr-2"  color="secondary" depressed :to="{ name: 'Checkbox' }" small>Checkbox</v-btn>
      
       <v-spacer></v-spacer>
 

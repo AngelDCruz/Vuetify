@@ -3,6 +3,14 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify';
+import VueCurrencyInput from 'vue-currency-input'
+
+Vue.use(VueCurrencyInput, {
+  globalOptions: { 
+    currency: 'USD',
+    locale: 'en-US'
+  }
+});
 
 Vue.config.productionTip = false
 

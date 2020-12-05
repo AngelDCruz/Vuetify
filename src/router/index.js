@@ -54,6 +54,21 @@ Vue.use(VueRouter)
     path: '/Bottomnavigation',
     name: 'Bottomnavigation',
     component: () => import('../views/Bottomnavigation.vue')
+  },
+  {
+    path: '/Datepicker',
+    name: 'Datepicker',
+    component: () => import('../views/Datepicker.vue')
+  },
+  {
+    path: '/Input',
+    name: 'Input',
+    component: () => import('../views/Input.vue')
+  },
+  {
+    path: '/Checkbox',
+    name: 'Checkbox',
+    component: () => import('../views/Checkbox.vue')
   }
 ]
 
